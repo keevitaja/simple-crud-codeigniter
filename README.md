@@ -13,7 +13,7 @@ for CodeIgniter, which gives you some additional benefits.
 To create a new model extend it from Simple_crud instead of CI_Model.
 Both Simple_crud and your model must be loaded in CI way.
 
-Name your models <Table_name>_model. If you do not like "_model" in all
+Name your models &lt;Table_name&gt;_model. If you do not like "_model" in all
 model names, just remove preg_replace from __construct() method. If table
 name is example, then model would look <code>class Example_model extends Simple_crud {}</code>
 
