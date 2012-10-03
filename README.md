@@ -8,7 +8,7 @@
 Simple CRUD is very simple (it really cannot be more simpler) "database abstraction
 layer" for CodeIgniter, which gives you some additional benefits.
 
-## Setup
+##Setup
 
 To create a new model extend it from Simple_crud instead of CI_Model.
 Both Simple_crud and your model must be loaded in CI way.
@@ -19,11 +19,11 @@ name is example, then model would look
 
 <pre><code>class Example_model extends Simple_crud {}</pre></code>
 
-### Usage examples
+##Usage examples
 
-Table: example
-Fields: id, cats, dogs
-Model: Example_model
+Table example
+Fields id, cats, dogs
+Model Example_model
 
 <pre><code>// Insert a row:
 
