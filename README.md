@@ -5,8 +5,8 @@
 
 ##Description
 
-Simple CRUD is very simple (it really cannot be more simpler) "database abstraction
-layer" for CodeIgniter, which gives you some additional benefits.
+Simple CRUD is very simple (it really cannot be more simpler) "database abstraction layer"
+for CodeIgniter, which gives you some additional benefits.
 
 ##Setup
 
@@ -17,13 +17,13 @@ Name your models <Table_name>_model. If you do not like "_model" in all
 model names, just remove preg_replace from __construct() method. If table
 name is example, then model would look
 
-<pre><code>class Example_model extends Simple_crud {}</pre></code>
+<code>class Example_model extends Simple_crud {}</code>
 
 ##Usage examples
 
-Table example
-Fields id, cats, dogs
-Model Example_model
+Table: example<br />
+Fields: id, cats, dogs<br />
+Model: Example_model<br >
 
 <pre><code>// Insert a row:
 
