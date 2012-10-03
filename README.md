@@ -49,7 +49,7 @@ $pets->delete();
 // or
 $this->example_model->delete($id); // where $id id the primary key</code></pre>
 
-<pre><code>// All together: create, update and delete. lol
+<pre><code>// All together: create, retrieve, update and delete. lol
 
 $pets = new Example_model;
 $pets->cats = 'cat';
