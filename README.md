@@ -15,9 +15,7 @@ Both Simple_crud and your model must be loaded in CI way.
 
 Name your models <Table_name>_model. If you do not like "_model" in all
 model names, just remove preg_replace from __construct() method. If table
-name is example, then model would look
-
-<code>class Example_model extends Simple_crud {}</code>
+name is example, then model would look <code>class Example_model extends Simple_crud {}</code>
 
 ##Usage examples
 
